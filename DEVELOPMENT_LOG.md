@@ -1,121 +1,96 @@
 # Development Log
+Entry 1 - [March 30, 2026, 6:00 PM]
 
-## Instructions
-Document your development process as you work on the assignment. Add entries showing:
-- What you worked on
-- Problems you encountered
-- How you solved them
-- Time spent
+What I did: Read assignment and understand Round Robin idea
 
-**Requirements**: Minimum 5 entries showing progression over time.
+Details:
+	•	Read instructions from GitHub
+	•	Review slides about CPU scheduling
+	•	Try understand ready queue and time quantum
 
----
+Challenges: Round Robin concept little confusing first
 
-## Example Entry Format:
+Solution: Watch short video and read slides again
 
-### Entry 1 - [April 1, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
+Time spent: 40 minutes
 
-**Details**: 
-- Created GitHub account with university email
-- Forked the starter repository
-- Changed student ID on line 92 to my actual ID (441234567)
-- Compiled and ran the program successfully
+⸻
 
-**Challenges**: Had to install JDK first because javac wasn't recognized
+Entry 2 - [March 30, 2026, 8:00 PM]
 
-**Solution**: Downloaded JDK 17 from Oracle website and set PATH variable
+What I did: Setup project and create Process class
 
-**Time spent**: 30 minutes
+Details:
+	•	Create Java project
+	•	Add variables: process id, burst time, remaining time
+	•	Test simple thread creation
 
----
+Challenges: Error in code first time
 
-## Your Development Log:
+Solution: Fix syntax mistakes and run again
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+Time spent: 1 hour
 
-**Details**: 
+⸻
 
-**Challenges**: 
+Entry 3 - [March 31, 2026, 5:30 PM]
 
-**Solution**: 
+What I did: Implement Round Robin scheduling logic
 
-**Time spent**: 
+Details:
+	•	Use queue to store processes
+	•	Add time quantum logic
+	•	Use sleep() to simulate CPU burst
 
----
+Challenges: Process not returning to queue correctly
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+Solution: Fix loop logic and update remaining time correctly
 
-**Details**: 
+Time spent: 1.5 hour
 
-**Challenges**: 
+⸻
 
-**Solution**: 
+Entry 4 - [April 1, 2026, 7:00 PM]
 
-**Time spent**: 
+What I did: Add thread control using start() and join()
 
----
+Details:
+	•	Each process run as Thread
+	•	Use join() to wait process finish quantum
+	•	Check execution order
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+Challenges: Program stop sometimes unexpectedly
 
-**Details**: 
+Solution: Fix join() position in code
 
-**Challenges**: 
+Time spent: 1 hour
 
-**Solution**: 
+⸻
 
-**Time spent**: 
+Entry 5 - [April 2, 2026, 3:00 PM]
 
----
+What I did: Solve GitHub problems and prepare files
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+Details:
+	•	Try push code to GitHub
+	•	Fix problem when repo not updating
+	•	Upload ANSWERS.md and DEVELOPMENT_LOG.md
+	•	Check program run correctly
 
-**Details**: 
+Challenges: GitHub not working first time and confused with commit
 
-**Challenges**: 
+Solution: Follow guide and try again until push success
 
-**Solution**: 
+Time spent: 2.5 hours
 
-**Time spent**: 
+⸻
 
----
+Summary
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+Total time spent on assignment: 6.5 hours
 
-**Details**: 
+Most challenging part: GitHub commit and push was confusing first time
 
-**Challenges**: 
+Most interesting learning: Understand how threads simulate CPU scheduling
 
-**Solution**: 
-
-**Time spent**: 
-
----
-
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
-
----
-
-## Summary
-
-**Total time spent on assignment**: [X hours]
-
-**Most challenging part**: 
-
-**Most interesting learning**: 
-
-**What I would do differently next time**: 
+What I would do differently next time: Learn GitHub earlier and start assignment sooner
