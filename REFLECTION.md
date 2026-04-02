@@ -1,58 +1,39 @@
-# Reflection Questions
+Question 1: What did you learn about multithreading?
 
-## Instructions
-Answer the following questions about your learning experience. Each answer should be **at least 5-7 sentences** and show your understanding.
+I learned that multithreading allows a program to do more than one task at the same time. I learned how to create threads and how they run together. Threads help the program work faster and use time better. I also learned that threads have different states like running and waiting. Multithreading is useful when a program needs to do many tasks together.
 
----
+⸻
 
-## Question 1: What did you learn about multithreading?
+Question 2: What was the most challenging part of this assignment?
 
-**Your Answer:**
+The most difficult part was using GitHub and understanding the code. I had trouble forking the repository and uploading the files. Some parts of the code were not clear for me at first. I was confused about where to write the required changes. It took time to understand how everything works together.
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+⸻
 
----
+Question 3: How did you overcome the challenges you faced?
 
-## Question 2: What was the most challenging part of this assignment?
+I solved the problems step by step and did not rush. I searched online to learn how GitHub works. I read the code carefully and tried to understand each part. I checked errors and fixed them one by one. With practice, I was able to complete the assignment.
 
-**Your Answer:**
+⸻
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
+Question 4: How can you apply multithreading concepts in real-world applications?
 
----
+Multithreading is used in many real applications. For example, web browsers open many tabs at the same time. Mobile apps download files while you use the app. Games use threads for graphics and sound together. Multithreading makes programs faster and smoother.
 
-## Question 3: How did you overcome the challenges you faced?
+⸻
 
-**Your Answer:**
+What would you like to learn more about?
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+I want to learn more about synchronization between threads. I want to understand how to avoid errors between threads. I also want more real examples of multithreading. Practice will help me understand better. This topic is important in programming.
 
----
+⸻
 
-## Question 4: How can you apply multithreading concepts in real-world applications?
+How confident do you feel about multithreading concepts now?
 
-**Your Answer:**
+I feel my level is beginner to intermediate. I understand the basic idea of threads. I can read simple multithreading code. I still need more practice to feel confident. I will continue learning and practicing.
 
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
+⸻
 
----
+Feedback on the assignment
 
-## Additional Reflections (Optional)
-
-### What would you like to learn more about?
-
-[Any topics related to threading, concurrency, or operating systems that you're curious about?]
-
----
-
-### How confident do you feel about multithreading concepts now?
-
-[Rate yourself and explain: Beginner / Intermediate / Confident]
-
-[Explain your rating - what do you understand well? What needs more practice?]
-
----
-
-### Feedback on the assignment
-
-[Any comments about the assignment? Was it helpful? Too easy/hard? Suggestions for improvement?]
+The assignment helped me understand multithreading better. It was a little difficult at first. GitHub also took time to learn. The practice helped me improve my skills. More examples in class would help more.
