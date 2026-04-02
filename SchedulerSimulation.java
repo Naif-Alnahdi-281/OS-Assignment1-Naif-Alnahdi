@@ -252,8 +252,7 @@ public class SchedulerSimulation {
              // FEATURE 1: Generate random priority between 1 and 5 (5 is highest)
             int priority = 1 + random.nextInt(5);
 
-            // FEATURE 1: Added priority parameter
-            Process process = new Process("P" + i, burstTime, timeQuantum, priority);
+          
             
             // Create a new process object with a unique name, burst time, and the defined time quantum
             // FEATURE 1: Added priority parameter
@@ -293,7 +292,7 @@ public class SchedulerSimulation {
             System.out.print(Colors.MAGENTA + "│ " + Colors.RESET + Colors.BRIGHT_WHITE + "[" + Colors.RESET);
             int queueCount = 0;
             for (Thread thread : processQueue) {
-                Process process = processMap.get(thread);
+                Process p = processMap.get(thread);
                 if (queueCount > 0) System.out.print(Colors.WHITE + " → " + Colors.RESET);
                 System.out.print(Colors.BRIGHT_CYAN + process.getName() + Colors.RESET);
                 queueCount++;
